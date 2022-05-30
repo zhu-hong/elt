@@ -1,7 +1,7 @@
 {
   "name": "elt",
   "scripts": {
-    "build": "rimraf -- dist && rollup -c && css-purge -i dist/style.css -o style.css"
+    "build": "rimraf -- dist && rollup -c && css-purge -i dist/style.css -o style.min.css"
   },
   "dependencies": {
     "css-purge": "3.1.8",
